@@ -16,7 +16,7 @@ data:
 apiVersion: apps.open-cluster-management.io/v1
 kind: HelmRelease
 metadata:
-  name: guestbook-010
+  name: guestbook
   namespace: helmrelease-secret-test
 repo:
   chartName: nginx
