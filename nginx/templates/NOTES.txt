@@ -1,1 +1,0 @@
-This is a simple helm chart, mainly focus on testing.

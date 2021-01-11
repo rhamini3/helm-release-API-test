@@ -3,12 +3,12 @@ entries:
   nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-11T19:35:06.86750943+08:00"
+    created: "2021-01-11T20:36:07.640212076+08:00"
     description: A Helm chart for Kubernetes - simple nginx chart for testing purpose
-    digest: 71eb4718af7da4a1428f6fe72f432b0467bcadbc848ffd3f377406f0917f448e
+    digest: 510a62a9a68b0e569cb07db02f3ea9d4f3f9aa1ae560f99e5ccdba8fbd9ef090
     name: nginx-chart
     type: application
     urls:
     - https://github.com/pezhang/helm-release-API-test/blob/gh-pages/docs/nginx-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-11T19:35:06.867145632+08:00"
+generated: "2021-01-11T20:36:07.639866796+08:00"

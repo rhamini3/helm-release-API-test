@@ -3,12 +3,11 @@ kind: Service
 metadata:
   name: nginx-service
   labels:
-    app: guestbook-nginx
+    app: {{ template "guestbookapplication.name" . }}
+    release: {{ .Release.Name }}
 spec:
   ports:
     - port: 80
-      targetPort: 9370
-      protocol: TCP
-      name: http
   selector:
-    app: guestbook-nginx
+    app: {{ template "guestbookapplication.name" . }}
+    release: {{ .Release.Name }}
