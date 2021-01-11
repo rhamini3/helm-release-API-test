@@ -17,5 +17,5 @@ repo:
       chartPath: nginx-chart
       urls:
         - https://github.com/pezhang/helm-release-API-test.git
-    type: helmrepo
+    type: git
   version: 0.1.0
