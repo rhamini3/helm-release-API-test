@@ -8,11 +8,11 @@ spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ .Chart.Name }}
+      app: {{ template "guestbookapplication.name" . }}
   template:
     metadata:
       labels:
-        app: {{ .Chart.Name }}
+        app: {{ template "guestbookapplication.name" . }}
     spec:
       containers:
         - name: {{ .Chart.Name }}

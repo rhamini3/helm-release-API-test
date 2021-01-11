@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx-service
   labels:
-    app: {{ .Chart.Name }}
+    app: {{ template "guestbookapplication.name" . }}
 spec:
   ports:
     - port: 80
@@ -11,4 +11,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: {{ .Chart.Name }}
+    app: {{ template "guestbookapplication.name" . }}
