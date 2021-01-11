@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx-service
   labels:
-    app: {{ template "guestbookapplication.name" . }}
+    app: guestbook-nginx
 spec:
   ports:
     - port: 80
@@ -11,4 +11,4 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: {{ template "guestbookapplication.name" . }}
+    app: guestbook-nginx

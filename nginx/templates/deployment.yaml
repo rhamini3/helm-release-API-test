@@ -8,11 +8,11 @@ spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ template "guestbookapplication.name" . }}
+      app: guestbook-nginx
   template:
     metadata:
       labels:
-        app: {{ template "guestbookapplication.name" . }}
+        app: guestbook-nginx
     spec:
       containers:
         - name: {{ .Chart.Name }}
