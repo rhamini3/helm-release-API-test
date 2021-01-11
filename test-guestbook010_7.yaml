@@ -19,7 +19,7 @@ metadata:
   name: guestbook-010
   namespace: helmrelease-secret-test
 repo:
-  chartName: gbapp
+  chartName: nginx
   source:
     helmRepo:
       urls:
