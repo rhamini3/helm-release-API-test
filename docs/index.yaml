@@ -3,12 +3,12 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-01-11T18:04:52.099777929+08:00"
+    created: "2021-01-11T18:30:11.884038356+08:00"
     description: A Helm chart for Kubernetes
-    digest: bf9736c40d287a241924aa488e0510b9bb8ae70e12534f5271434f0f65c9d7d1
+    digest: b2a12a490944a8975f2cf6d1ff5c806d861cd1a431099f639c5da5f47524eb26
     name: nginx
     type: application
     urls:
     - https://github.com/pezhang/helm-release-API-test/blob/gh-pages/docs/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-11T18:04:52.099439654+08:00"
+generated: "2021-01-11T18:30:11.883702673+08:00"

@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   labels:
-    app: {{ .Chart.Name }}
+    app: guestbook
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
