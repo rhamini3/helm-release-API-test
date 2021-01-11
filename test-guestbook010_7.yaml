@@ -19,11 +19,11 @@ metadata:
   name: guestbook
   namespace: helmrelease-secret-test
 repo:
-  chartName: nginx
+  chartName: nginx-chart
   source:
     helmRepo:
       urls:
-        - http://10.73.72.41/helmreleaseAPItest/nginx-0.1.0.tgz
+        - http://10.73.72.41/helmreleaseAPItest/nginx-chart-0.1.0.tgz
     type: helmrepo
   version: 0.1.0
   envFrom:
