@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  apache-basic-auth:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-02-23T17:41:52.940972521+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 2a4c78289d378d85a944ac7e4ccb5f24c4d058ad8605842793b07cf8c99f2840
+    name: apache-basic-auth
+    type: application
+    urls:
+    - https://github.com/pezhang/helm-release-API-test/tree/apache-basic-auth/apache-basic-auth-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-02-23T17:41:52.940406071+08:00"
